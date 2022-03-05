@@ -2,6 +2,13 @@
 let app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight});
 document.body.appendChild(app.view);
 
+
+// Add custom cursor styles
+const testIcon = "url('/images/forward-arrow.png'),auto";
+app.renderer.plugins.interaction.cursorStyles.default = testIcon;
+//app.renderer.plugins.interaction.cursorStyles.hover = hoverIcon;
+
+
 let img = new PIXI.Sprite.from("/images/storage_unit_hallway_1.png");
 img.width = 930;
 img.height = 675;
