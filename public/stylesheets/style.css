@@ -1,20 +1,24 @@
 
 
-.game-window-wrapper{
+/* .game-window-wrapper{
     display:flex;
     justify-content: center;
-}
+} */
+/* .game-image{
+    width: 933px;
+    height: 700px;
+} */
 
-.game-window-interior{
-    width: 60%;
+/* .game-window-interior{
+    width: 933px;
     justify-content: center;
-    background-image: url("../images/wall-door.png"); 
+    background-image: url("../images/storage_unit_hallway_1.png"); 
     background-size: contain;
     height: 700px;
     position: relative;
-}
+} */
 
-.left-panel{
+/* .left-panel{
     opacity: 0;
     height: 300px;
     width: 30%;
@@ -45,6 +49,6 @@
     opacity: 0;
 }
 .bottom-panel{
-    opacity: 0;
-}
+    opacity: 0; 
+}*/
 
