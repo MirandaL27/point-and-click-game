@@ -41,3 +41,18 @@ window.onmousemove = (e) => {
     displacementFilter.scale.x = (700/2 - Math.min(e.clientX,700)) / 20;
     displacementFilter.scale.y = (700/2 - Math.min(e.clientY,700)) / 20;
 } 
+
+
+//first attempt at lighting effect - draw a circle and position it over the candle's flame to mimic light.
+// const lightbulb = new PIXI.Graphics();
+//     const rr = 255;
+//     const rg = 252;
+//     const rb = 240;
+//     const rad = 100
+//     lightbulb.beginFill((rr << 16) + (rg << 8) + rb, 0.5);
+//     lightbulb.drawCircle(0, 0, rad);
+//     lightbulb.endFill();
+
+//     lightbulb.x = 190;
+//     lightbulb.y = 90;
+//     candleImg.addChild(lightbulb);
